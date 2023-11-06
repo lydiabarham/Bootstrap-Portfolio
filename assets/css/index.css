@@ -175,6 +175,7 @@ footer {
 
 footer p {
     font-size: x-large;
+    text-shadow: 1px 1px 1px var(--hover);
 }
 
 footer a {
