@@ -3,8 +3,8 @@
 }
 
 :root {
-    --main: black;
     --accent: #bab86c;
+    --hover: #ba6c6e;
 }
 
 body {
@@ -34,11 +34,20 @@ body {
 
 .dropdown-menu a {
     color: black !important;
+    font-size: large;
+}
+
+.nav-item a:hover {
+    background-color: var(--hover);
 }
 
 /*Title*/
 .title {
     text-align: center;
+}
+
+.title h1 {
+    text-shadow: 3px 2px 2px var(--hover);
 }
 
 /*jumbotron section*/ 
@@ -53,7 +62,7 @@ body {
 
 .jumbotron .container-fluid .row .card h2 {
     padding: 40px;
-    font-weight: 500;
+    font-size: x-large;
 }
 
 .jumbotron .container-fluid .row .card p {
@@ -68,6 +77,11 @@ body {
 
 /*work section*/
 
+.work h2{
+    font-size: x-large;
+    padding: 20px;
+}
+
 .work .container-fluid .row .card {
     background-color: beige;
     height: 500px;
@@ -81,9 +95,95 @@ body {
     padding-top: 10px;
 }
 
+.card-body a {
+    border: var(--accent) solid 0.5px;
+    background-color: white;
+    border-radius: 0%;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+
+.card-body a:hover {
+    box-shadow: 2px 2px 5px var(--hover);
+}
+
 /*skills section*/
 
-.accordian-header button {
+h2 button {
+    font-size: x-large !important;
+    background-color: var(--accent) !important;
+    color: white !important;
+}
+
+h2 button:hover {
+    box-shadow: 2px 2px 5px var(--hover);
+}
+
+.data-bs-toggle {
+    color: white;
+}
+
+#flush-collapseOne {
+    font-size: medium;
+    background-color: beige;
+}
+
+ul .list-group-item {
+    border-radius: 0px 0px 0px 0px !important;
+    border: var(--accent) 1px solid;
+    margin-top: 10px
+}
+
+.accordian-body .list-group-item {
+    border-radius: 0% !important;
+    border: var(--accent) !important;
+    background-color: beige !important;
+    color: black !important;
+}
+
+/*contact section*/ 
+
+.contact h2 {
+    padding: 20px;
     font-size: x-large;
+}
+
+.contact-list ul {
+    padding-left: 20px;
+    font-size: medium;
+}
+
+.contact-list ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-list .list-group-item:hover {
+    box-shadow: 2px 2px 5px var(--hover);
+}
+
+/*footer*/ 
+
+footer {
     background-color: var(--accent);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+footer p {
+    font-size: x-large;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: medium;
+    color: beige;
+    padding: 5px;
+}
+
+footer a:hover {
+    background-color: var(--hover);
 }
