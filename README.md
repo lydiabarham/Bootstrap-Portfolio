@@ -13,6 +13,12 @@ To use the site, use the navigation bar to link to sections within the page. Eac
 
 ![image](https://github.com/lydiabarham/Bootstrap-Portfolio/assets/147499934/450bf0c0-2444-4f5c-a96f-ce7e7d10376f)
 
+![image](https://github.com/lydiabarham/Bootstrap-Portfolio/assets/147499934/c8000aa9-6f2b-4bfe-9446-deaf1354ba12)
+
+(I have uploaded the screenshot in 2 images) 
+
+Using Bootstrap styling, the site is responsive. 
+
 ##Credits 
 
 A lot of code in this project has come from Bootstrap, and has been edited by me. 
